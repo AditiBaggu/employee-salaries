@@ -1,0 +1,37 @@
+.app-container {
+  padding: 24px;
+  background: #f0f2f5;
+}
+
+.main-title {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #001529;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ant-card-head-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.ant-table-thead > tr > th {
+  background-color: #fafafa;
+  font-weight: 600;
+}
+
+.ant-table-tbody > tr:hover > td {
+  background-color: #e6f7ff;
+}
+
+.ant-table-expanded-row > td {
+  background-color: #f5f5f5;
+}
+
+.responsive-chart {
+  margin-top: 24px;
+}
