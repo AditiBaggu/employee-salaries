@@ -22,7 +22,7 @@ const App = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/salaries")
+      .get("https://employee-salaries.onrender.com/api/salaries")
       .then((response) => {
         setData(response.data);
         setLoading(false);
